@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Lato", "Montserrat", "Poppins";
+}
+
+.slide-content-1 {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url("../images/banner1.png");
+}
+
+.slide-content-2 {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url("../images/banner2.png");
+}
+
+.slide-content-3 {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url("../images/banner3.png");
+}
+
+.slide-content-4 {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url("../images/banner4.png");
+}
+
+.banner-card {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
+.meet-team {
+  border-radius: 8px;
+  background: url(../images/team.png) rgba(18, 18, 18, 0.7);
+  background-blend-mode: overlay;
+}
