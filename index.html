@@ -20,7 +20,7 @@
   <body>
     <!-- Navbar Section Start -->
     <nav
-      class="mx-5 my-7 lg:my-12 lg:mx-[40px] rounded-full bg-primaryPink text-white flex justify-between px-12"
+      class="mx-10 my-7 lg:my-12 lg:mx-[40px] rounded-full bg-primaryPink text-white flex justify-between px-12"
     >
       <ul class="hidden lg:flex gap-7 items-center">
         <li><a class="text-lg font-medium" href="#">Home</a></li>
@@ -77,11 +77,11 @@
 
     <!-- Banner Section Start -->
 
-    <section class="banner lg:mx-[40px]">
+    <section class="banner mx-10 lg:mx-[40px]">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
-          <div class="slide-content-1 w-full text-center pt-20 pb-52">
-            <h1 class="text-7xl font-extrabold text-white">
+          <div class="slide-content-1 w-full text-center py-32 lg:pt-20 lg:pb-52">
+            <h1 class="text-5xl lg:text-7xl font-extrabold text-white">
               Exotic tastes at your <br />
               doorstep
             </h1>
@@ -111,8 +111,8 @@
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-          <div class="slide-content-2 w-full text-center pt-20 pb-52">
-            <h1 class="text-7xl font-extrabold text-white">
+          <div class="slide-content-2 w-full text-center py-32 lg:pt-20 lg:pb-52">
+            <h1 class="text-5xl lg:text-7xl font-extrabold text-white">
               Exotic tastes at your <br />
               doorstep
             </h1>
@@ -142,8 +142,8 @@
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-          <div class="slide-content-3 w-full text-center pt-20 pb-52">
-            <h1 class="text-7xl font-extrabold text-white">
+          <div class="slide-content-3 w-full text-center py-32 lg:pt-20 lg:pb-52">
+            <h1 class="text-5xl lg:text-7xl font-extrabold text-white">
               Exotic tastes at your <br />
               doorstep
             </h1>
@@ -173,8 +173,8 @@
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-          <div class="slide-content-4 w-full text-center pt-20 pb-52">
-            <h1 class="text-7xl font-extrabold text-white">
+          <div class="slide-content-4 w-full text-center py-32 lg:pt-20 lg:pb-52">
+            <h1 class="text-5xl lg:text-7xl font-extrabold text-white">
               Exotic tastes at your <br />
               doorstep
             </h1>
@@ -235,29 +235,29 @@
 
     <!-- Deal of the day Section Start -->
 
-    <section class="deal lg:mx-[40px]">
-      <div class="top-content flex justify-between mb-12">
-        <div class="left w-1/2">
-          <h2 class="text-5xl font-extrabold text-primaryText">
+    <section class="deal mx-10 lg:mx-[40px]">
+      <div class="top-content flex flex-col md:flex-row justify-between my-12">
+        <div class="left md:w-1/2">
+          <h2 class="text-center md:text-left text-4xl lg:text-5xl font-extrabold text-primaryText pb-2 lg:pb-6">
             Deal of the day
           </h2>
-          <p class="text-base text-secondaryText font-medium">
+          <p class="text-center md:text-left text-base text-secondaryText font-medium">
             Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical <br />
             Latin literature from 45 BC, making it over 2000 years old.
           </p>
         </div>
-        <div class="right flex">
+        <div class="right flex justify-center items-center mt-6 md:mt-0">
           <div class="days">
             <div class="flex">
-              <h2 class="text-5xl font-extrabold text-primaryText mr-3">29</h2>
+              <h2 class="text-4xl lg:text-5xl font-extrabold text-primaryText mr-3">29</h2>
               <img src="./images/date-divider.svg" alt="" />
             </div>
-            <p class="text-base text-secondaryText font-medium ps-3">Days</p>
+            <p class="text-base text-secondaryText font-medium lg:ps-3">Days</p>
           </div>
           <div class="hours">
             <div class="flex">
-              <h2 class="text-5xl font-extrabold text-primaryText mx-3">15</h2>
+              <h2 class="text-4xl lg:text-5xl font-extrabold text-primaryText mx-3">15</h2>
               <img src="./images/date-divider.svg" alt="" />
             </div>
             <p
@@ -268,7 +268,7 @@
           </div>
           <div class="minutes">
             <div class="flex">
-              <h2 class="text-5xl font-extrabold text-primaryText mx-3">25</h2>
+              <h2 class="text-4xl lg:text-5xl font-extrabold text-primaryText mx-3">25</h2>
               <img src="./images/date-divider.svg" alt="" />
             </div>
             <p
@@ -279,10 +279,10 @@
           </div>
           <div class="seconds">
             <div class="flex">
-              <h2 class="text-5xl font-extrabold text-primaryText ml-3">08</h2>
+              <h2 class="text-4xl lg:text-5xl font-extrabold text-primaryText ml-3">08</h2>
             </div>
             <p
-              class="text-base text-secondaryText font-medium text-center ms-4"
+              class="text-base text-secondaryText font-medium text-center lg:ms-4"
             >
               Seconds
             </p>
@@ -290,11 +290,12 @@
         </div>
       </div>
       <div
-        class="deal-card-section grid md:grid-cols-2 lg:grid-cols-4 gap-6 py-12 items-center justify-center"
+        id="deals-card"
+        class="deal-card-section flex flex-col md:grid md:grid md:grid-cols-2 lg:grid-cols-4 gap-20 md:gap-12 lg:gap-6 py-12 items-center justify-center px-10 md:px-2"
       >
         <!-- card 1 -->
         <div
-          class="card-1 border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
+          class="card-1 w-full border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
         >
           <img src="./images/fruit6.png" alt="" />
           <h3 class="text-2xl font-bold text-primaryText py-12">
@@ -347,7 +348,7 @@
         </div>
         <!-- card 2 -->
         <div
-          class="card-2 border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
+          class="card-2 w-full border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
         >
           <img src="./images/fruit7.png" alt="" />
           <h3 class="text-2xl font-bold text-primaryText py-12">
@@ -400,7 +401,7 @@
         </div>
         <!-- card 3 -->
         <div
-          class="card-3 border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
+          class="card-3 w-full border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
         >
           <img src="./images/fruit8.png" alt="" />
           <h3 class="text-2xl font-bold text-primaryText py-12">
@@ -453,7 +454,7 @@
         </div>
         <!-- card 4 -->
         <div
-          class="card-4 border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
+          class="card-4 w-full border border-[#1212121a] flex flex-col items-center py-12 rounded-lg"
         >
           <img src="./images/fruit9.png" alt="" />
           <h3 class="text-2xl font-bold text-primaryText py-12">
@@ -517,19 +518,19 @@
 
     <!-- Meet the team Section Start -->
 
-    <section class="meet-team my-36 mx-10 lg:mx[40px]">
-      <div class="top-content pt-[120px]">
+    <section class="meet-team my-20 lg:my-36 mx-10 lg:mx[40px]">
+      <div class="top-content pt-12 lg:pt-[120px]">
         <h2 class="text-5xl font-extrabold text-white text-center">
           Meet the team
         </h2>
-        <p class="mt-6 text-base text-white font-medium text-center">
+        <p class="mt-6 text-base text-white font-medium text-center px-10 md:px-20 lg:w-2/3 lg:mx-auto">
           Contrary to popular belief, is not simply random text. It has roots in
-          a piece of classical <br />
+          a piece of classical
           Latin literature from 45 BC, making it over 2000 years old.
         </p>
       </div>
       <div
-        class="team-members mt-12 pb-[120px] grid md:grid-cols-2 lg:grid-cols-4 justify-center items-center"
+        class="team-members mt-12 pb-[120px] grid md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-12 lg:gap-4"
       >
         <!-- member 1 -->
         <div class="member-1 flex flex-col justify-center items-center">
@@ -578,11 +579,232 @@
             <img src="/images/linkedin1.svg" alt="" />
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- Meet the team Section End -->
+
+    <!-- Why Choose Us Section Start -->
+
+    <section class="why-choose-us mx-10 lg:mx-[40px] mb-12 lg:mb-20">
+      <h1
+        class="text-center text-3xl md:text-5xl font-extrabold text-primaryText"
+      >
+        Why Choose Us
+      </h1>
+      <p
+        class="text-center text-base text-secondaryText font-medium px-10 lg:px-12 lg:w-2/4 mx-auto mt-6 mb-12"
+      >
+        Contrary to popular belief, is not simply random text. It has roots in a
+        piece of classical Latin literature from 45 BC, making it over 2000
+        years old.
+      </p>
+      <div
+        class="why-us grid md:grid-cols-2 lg:grid-cols-3 gap-12 text-center lg:text-left"
+      >
+        <!-- grid 1 -->
+        <div class="grid-1 sm:order-2 lg:order-1">
+          <!-- card 1 -->
+          <div
+            class="card-1 flex flex-col lg:flex-row justify-center items-center lg:gap-6 mb-12 lg:mb-2"
+          >
+            <div
+              class="icon w-16 h-16 rounded-full bg-[#1212121a] flex justify-center items-center"
+            >
+              <img class="rounded-full" src="/images/group1.svg" alt="" />
+            </div>
+            <div class="card-content flex-1 flex flex-col">
+              <h3 class="text-2xl font-extrabold text-primaryText pt-8 pb-5">
+                Dedicated Team
+              </h3>
+              <div class="w-full relative flex justify-center">
+                <hr class="absolute lg:left-0 w-24 h-px bg-primaryText" />
+              </div>
+              <p class="text-base text-secondaryText font-medium pt-4">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="card-2 flex flex-col lg:flex-row justify-center items-center lg:gap-6 mb-12 lg:mb-2"
+          >
+            <div
+              class="icon w-16 h-16 rounded-full bg-[#1212121a] flex justify-center items-center"
+            >
+              <img class="rounded-full" src="/images/love1.svg" alt="" />
+            </div>
+            <div class="card-content flex-1 flex flex-col">
+              <h3 class="text-2xl font-extrabold text-primaryText pt-8 pb-5">
+                Fresh is Best
+              </h3>
+              <div class="w-full relative flex justify-center">
+                <hr class="absolute lg:left-0 w-24 h-px bg-primaryText" />
+              </div>
+              <p class="text-base text-secondaryText font-medium pt-4">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="card-3 flex flex-col lg:flex-row justify-center items-center lg:gap-6 mb-12 lg:mb-2"
+          >
+            <div
+              class="icon w-16 h-16 rounded-full bg-[#1212121a] flex justify-center items-center"
+            >
+              <img class="rounded-full" src="/images/gift-box1.svg" alt="" />
+            </div>
+            <div class="card-content flex-1 flex flex-col">
+              <h3 class="text-2xl font-extrabold text-primaryText pt-8 pb-5">
+                Gift Certificates
+              </h3>
+              <div class="w-full relative flex justify-center">
+                <hr class="absolute lg:left-0 w-24 h-px bg-primaryText" />
+              </div>
+              <p class="text-base text-secondaryText font-medium pt-4">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- grid 2 -->
+        <div
+          class="grid-2 flex md:hidden lg:flex flex-col justify-center items-center lg:order-2"
+        >
+          <img class="rounded-lg" src="/images/whychoose1.png" alt="" />
+        </div>
+
+        <!-- grid 3 -->
+        <div class="grid-3 md:order-2 order-3">
+          <!-- card 1 -->
+          <div
+            class="card-1 flex flex-col lg:flex-row-reverse text-center lg:text-right justify-center items-center lg:gap-6 mb-12 lg:mb-2"
+          >
+            <div
+              class="icon w-16 h-16 rounded-full bg-[#1212121a] flex justify-center items-center"
+            >
+              <img class="rounded-full" src="/images/fruit1.svg" alt="" />
+            </div>
+            <div class="card-content flex-1 flex flex-col">
+              <h3 class="text-2xl font-extrabold text-primaryText pt-8 pb-5">
+                Integrated Supplier
+              </h3>
+              <div class="w-full relative flex justify-center">
+                <hr class="absolute lg:right-0 w-24 h-px bg-primaryText" />
+              </div>
+              <p class="text-base text-secondaryText font-medium pt-4">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="card-2 flex flex-col lg:flex-row-reverse text-center lg:text-right justify-center items-center lg:gap-6 mb-12 lg:mb-2"
+          >
+            <div
+              class="icon w-16 h-16 rounded-full bg-[#1212121a] flex justify-center items-center"
+            >
+              <img class="rounded-full" src="/images/ice-cream1.svg" alt="" />
+            </div>
+            <div class="card-content flex-1 flex flex-col">
+              <h3 class="text-2xl font-extrabold text-primaryText pt-8 pb-5">
+                Sustainable Practice
+              </h3>
+              <div class="w-full relative flex justify-center">
+                <hr class="absolute lg:right-0 w-24 h-px bg-primaryText" />
+              </div>
+              <p class="text-base text-secondaryText font-medium pt-4">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="card-3 flex flex-col lg:flex-row-reverse text-center lg:text-right justify-center items-center lg:gap-6 mb-12 lg:mb-2"
+          >
+            <div
+              class="icon w-16 h-16 rounded-full bg-[#1212121a] flex justify-center items-center"
+            >
+              <img class="rounded-full" src="/images/like1.svg" alt="" />
+            </div>
+            <div class="card-content flex-1 flex flex-col">
+              <h3 class="text-2xl font-extrabold text-primaryText pt-8 pb-5">
+                The Benefits Only
+              </h3>
+              <div class="w-full relative flex justify-center">
+                <hr class="absolute lg:right-0 w-24 h-px bg-primaryText" />
+              </div>
+              <p class="text-base text-secondaryText font-medium pt-4">
+                Professional employees are there for you to pick the most
+                amazing and fresh fruits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section End -->
+
+    <!-- Footer Section Start -->
+
+    <footer class="bg-primaryText flex justify-center items-center py-[140px]">
+      <div
+        class="footer-content text-white flex flex-col justify-center items-center gap-12"
+      >
+        <div class="logo flex items-center gap-4">
+          <img src="images/logo.png" alt="" />
+          <h2 class="text-[40px] font-bold text-white">Fruit Burst</h2>
+        </div>
+        <ul class="footer-nav-links flex flex-wrap gap-14 justify-center">
+          <li><a href="#" class="text-lg text-semibold text-white">Home</a></li>
+          <li>
+            <a href="#" class="text-lg text-semibold text-white">About Us</a>
+          </li>
+          <li><a href="#" class="text-lg text-semibold text-white">Shop</a></li>
+          <li>
+            <a href="#" class="text-lg text-semibold text-white">All Fruits</a>
+          </li>
+          <li>
+            <a href="#" class="text-lg text-semibold text-white">Support</a>
+          </li>
+          <li>
+            <a href="#" class="text-lg text-semibold text-white">My Account</a>
+          </li>
+        </ul>
+        <ul
+          class="footer-social-icons flex gap-10 flex-wrap justify-center px-5"
+        >
+          <li>
+            <a href="#"><img src="/images/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/images/facebook.svg" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/images/youtube.svg" alt="youtube" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/images/linkedin.svg" alt="linkedin" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/images/instagram.svg" alt="instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/images/apple.svg" alt="apple" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Footer Section End -->
 
     <!-- Tailwind Config File -->
     <script>

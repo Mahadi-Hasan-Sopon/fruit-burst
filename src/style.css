@@ -8,24 +8,32 @@ body {
   border-radius: 8px;
   background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
     url("../images/banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-content-2 {
   border-radius: 8px;
   background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
     url("../images/banner2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-content-3 {
   border-radius: 8px;
   background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
     url("../images/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-content-4 {
   border-radius: 8px;
   background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
     url("../images/banner4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-card {
