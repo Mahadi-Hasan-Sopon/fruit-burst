@@ -1,16 +1,16 @@
 ## Main Mark
 
 1. navbar section -- complete
-2. Banner Section (slider) --
-3. Deal of the day --
-4. Meet the team --
+2. Banner Section (slider) -- complete
+3. Deal of the day -- complete
+4. Meet the team -- complete
 5. Footer section --
 
 ## Bonus Mark
 
-1. Banner Bottom --
-2. Deal of the day (Modal) --
-3. Why Choose Us Section --
+1. Banner Bottom -- complete
+2. Deal of the day (Modal) -- complete
+3. Why Choose Us Section -- 
 4. Responsive (mobile) --
 
 ### Resources
