@@ -46,4 +46,6 @@ body {
   border-radius: 8px;
   background: url(../images/team.png) rgba(18, 18, 18, 0.7);
   background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
